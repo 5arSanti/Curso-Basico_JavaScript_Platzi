@@ -14,3 +14,13 @@ var miFuncion = function(a,b){
 }
 
 miFuncion();
+
+
+//Scope global y local
+var miNombre = "Santiago";
+
+function nombre() {
+    var miApellido = "Arias";
+    console.log(miNombre + " " + miApellido);
+}
+nombre();
