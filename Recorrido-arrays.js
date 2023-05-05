@@ -20,7 +20,7 @@ var articulosFiltrados = articulos.filter(
 //Mapear todo el contenido del array (En este caso los nombres de los articulos)
 var nombreArticulos = articulos.map(
     function(articulo){
-        return articulo.nombre
+        return articulo.nombre;
     }
 )
 //--------------------------------------------
